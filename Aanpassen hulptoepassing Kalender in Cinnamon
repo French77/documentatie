@@ -42,8 +42,8 @@ Verander in de sectie custom-format de waarde ("value") aangegeven d.m.v  deze w
     "__md5__": "db2204a9b8ebf8688c7d463eed4ac71c"
 }[/php]
 Na aanpassing zal kalender applet er zo uitzien in je werk/taakbalk.
-[img]https://i.imgur.com/ttypYrB.png[/img]
- :edit: Is de uitlijning niet naar wens in de werk/taakbalk (kan aan het gebruikte thema liggen),rechter muisklik op een leeg veld in de werk/taakbalk,paneelinstellingen => kiezen voor aangepaste werk/taakbalk en Cinnamon toestaan om de uitlijning te laten instellen m.b.v schuifbalk.
+![Screenshot](https://imgur.com/ttypYrB.png"Screenshot")
+:edit: Is de uitlijning niet naar wens in de werk/taakbalk (kan aan het gebruikte thema liggen),rechter muisklik op een leeg veld in de werk/taakbalk,paneelinstellingen => kiezen voor aangepaste werk/taakbalk en Cinnamon toestaan om de uitlijning te laten instellen m.b.v schuifbalk.
 
 Wil je het nu geheel anders weergeven hieronder een lijst met karakters voor tijd en datum die je kunt toepassen 
 [php]
