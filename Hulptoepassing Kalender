@@ -48,7 +48,7 @@ Na aanpassing zal kalender applet er zo uitzien in je werk/taakbalk.
  :edit: Is de uitlijning niet naar wens in de werk/taakbalk (kan aan het gebruikte thema liggen),rechter muisklik op een leeg veld in de werk/taakbalk,paneelinstellingen => kiezen voor aangepaste werk/taakbalk en Cinnamon toestaan om de uitlijning te laten instellen m.b.v schuifbalk.
 
 Wil je het nu geheel anders weergeven hieronder een lijst met karakters voor tijd en datum die je kunt toepassen 
-[php]
+
 ###  Tijd en Datum FORMAT karakters te gebruiken in scripts.### 
 #  Volledige lijst met FORMAT-controle karakters voor datum en tijd opdrachten #  
 #  Combinatie van een van de volgende onderstaande karakters is mogelijk:#  
@@ -101,4 +101,4 @@ Wil je het nu geheel anders weergeven hieronder een lijst met karakters voor tij
 #  %::z    +hh:mm:ss numerieke tijdzone (bijvoorbeeld -04:00:00)  
 #  %:::z    Numerieke tijdzone (bijvoorbeeld -04, +05: 30)
 
-# %Z     Alfabetische tijdzoneafkorting (bijvoorbeeld CEST)[/php]
+# %Z     Alfabetische tijdzoneafkorting (bijvoorbeeld CEST)
