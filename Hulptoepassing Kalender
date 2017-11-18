@@ -1,7 +1,7 @@
-Ga naar:
+# Ga naar:
 /home/gebruikers_naam/.cinnamon/configs/calendar@cinnamon.org folder
-Open het .json bestand
-Verander in de sectie custom-format de waarde ("value") aangegeven d.m.v deze waarde aanpassen => =>,dit zijn de waardes die door mezelf zijn ingegeven dus puur als [b]voorbeeld[/b] naar:([color=red]"%H:%M:%S\n%A %x Week %V" [/color]) [/li]
+# Open het .json bestand
+Verander in de sectie custom-format de waarde ("value") aangegeven d.m.v deze waarde aanpassen => =>,dit zijn de waardes die door mezelf zijn ingegeven dus puur als  naar:"%H:%M:%S\n%A %x Week %V" 
 
 {
     "section1": {
@@ -29,7 +29,7 @@ Verander in de sectie custom-format de waarde ("value") aangegeven d.m.v deze wa
         "indent": true,
         "dependency": "use-custom-format",
         "tooltip": "Set your custom format here.",
- deze waarde aanpassen  => => "value": "%A %B %e, %H:%M" <= <=
+ ## deze waarde aanpassen  => => "value": "%A %B %e, %H:%M" <= <=
     },
     "format-button": {
         "type": "button",
@@ -42,8 +42,8 @@ Verander in de sectie custom-format de waarde ("value") aangegeven d.m.v deze wa
     "__md5__": "db2204a9b8ebf8688c7d463eed4ac71c"
 }
 
-Na aanpassing zal kalender applet er zo uitzien in je werk/taakbalk.
-
+# Na aanpassing zal kalender applet er zo uitzien in je werk/taakbalk.
+![Screenshot](https://wavebox.io/images/intro_gallery_preview.png "Screenshot")
 ![Screenshot](https://i.imgur.com/ttypYrB.png"Screenshot")
  :edit: Is de uitlijning niet naar wens in de werk/taakbalk (kan aan het gebruikte thema liggen),rechter muisklik op een leeg veld in de werk/taakbalk,paneelinstellingen => kiezen voor aangepaste werk/taakbalk en Cinnamon toestaan om de uitlijning te laten instellen m.b.v schuifbalk.
 
