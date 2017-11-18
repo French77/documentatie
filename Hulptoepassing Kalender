@@ -1,7 +1,7 @@
 ### GA NAAR:
 *  /home/gebruikers_naam/.cinnamon/configs/calendar@cinnamon.org folder
 # Open het .json bestand
-Verander in de sectie [md]<mark>custom-format</mark>[/md] de waarde ("value") aangegeven d.m.v deze waarde aanpassen => =>,dit zijn de waardes die door mezelf zijn ingegeven dus puur als  naar:"%H:%M:%S\n%A %x Week %V" 
+Verander in de sectie custom-format de waarde ("value") aangegeven d.m.v deze waarde aanpassen => =>,dit zijn de waardes die door mezelf zijn ingegeven dus puur als  naar:"%H:%M:%S\n%A %x Week %V" 
 
 {
     "section1": {
