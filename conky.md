@@ -116,7 +116,7 @@ ${color 52c700}${font PizzaDude Bullets:size=12}h${font}${color } Conky script g
 > ]]
 
 ![Screenshot](https://i.imgur.com/fYDkPav.png"Screenshot")
-
+![](https://img.shields.io/badge/Linux-CC0-brightgreen.svg?style=social&label=Afbeeldingen)
 
 
 
