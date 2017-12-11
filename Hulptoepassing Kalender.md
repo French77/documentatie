@@ -1,9 +1,8 @@
-
 #### Ga naar:
-- /home/gebruikers_naam/.cinnamon/configs/calendar@cinnamon.org folder
-- Open het .json bestand
-- Verander in de sectie custom-format de waarde ("value")  naar bv:
-- "%H:%M:%S\n%A %x Week %V" 
+- ``/home/gebruikers_naam/.cinnamon/configs/calendar@cinnamon.org folder``
+- ``Open het .json bestand``
+- ``Verander in de sectie custom-format de waarde ("value")  naar bv:``
+- ``"%H:%M:%S\n%A %x Week %V" ``
 
 `custom-format": {
         "type": "entry",
