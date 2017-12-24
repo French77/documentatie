@@ -1,5 +1,5 @@
 #### Linux Mint 17&18 bevatten enkele wijzigingen met betrekking tot de ondersteuning van de lokale taal en de manier waarop deze is ingesteld. Als gevolg hiervan ziet u de volgende waarschuwing, bijvoorbeeld bij het uitvoeren van `update-initramfs`
-- Waarschuwing: No support for locale: nl_NL.utf8
+- Waarschuwing: No support for locale: nl_NL.UTF-8
 
 Dit komt omdat `locale-gen` een archiefbestand gebruikt om alle landinstellingen in op te slaan, maar veel hulpprogramma's zijn nog steeds op zoek naar de locale bestanden
 Kijk eens naar > ``ls /usr/lib/locale/``. 
