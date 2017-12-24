@@ -15,9 +15,10 @@ Met deze opdracht wordt het archiefbestand verwijderd en vervangen door de .utf8
 
 ![Screenshot](https://i.imgur.com/5VyVxm4.png"Screenshot") 
 
- #### Opmerking: de onderstaande uitvoer vertegenwoordigt de Engelse en Nederlandse locale bestanden, uw uitvoer kan verschillen afhankelijk van de talen die u hebt geselecteerd.
+ #### Opmerking: de onderstaande uitvoer laat de Engelse en Nederlandse locale bestanden zien, eigen uitvoer kan verschillen afhankelijk van de talen die er zijn geselecteerd.
  ![Screenshot](https://i.imgur.com/5vPsjzm.png"Screenshot") 
  
 Daarna kan je e.v.t onderstaand commando ingeven in de terminal,ter controle 
 > ``sudo update-initramfs -u``
  
+![](https://img.shields.io/badge/Linux-CC0-brightgreen.svg?style=social&label=Afbeeldingen)
