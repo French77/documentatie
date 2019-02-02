@@ -1,4 +1,4 @@
-#### Conky script made by Freñiçh Dutch Language using StyleBats and PizzaDude Fonts.Free to use,distribute or modify to your own needs.Copy/paste this script to your own .conkyrc(~) ####
+#### Conky script Dutch Language using StyleBats,ConkyColors,conkysymbols and PizzaDude Fonts.Free to use,distribute or modify to your own needs. .conkyrc(~) ####
 
 conky.config = {
 	-- Use double buffering (eliminates flickering)
@@ -25,8 +25,8 @@ conky.config = {
 
 	-- Use Xft (anti-aliased font and stuff)
 	use_xft = true,
-	font = 'Ubuntu Bold:size=8',
-	xftalpha = 0.8,
+	font = 'Ubuntu Bold:size=8,8',
+	xftalpha = 0.9,
 	uppercase = false,
   
 	-- Prevent text from moving around while using a mono font
@@ -48,74 +48,86 @@ conky.config = {
 	own_window_hints = 'undecorated,below,skip_taskbar,sticky,skip_pager',
   
 	-- Window size and position
-	minimum_width = 220,
-	minimum_height = 690,
-	maximum_width = 320,
-	alignment = 'top_right',
-	gap_y = 85
+	minimum_width = 400,
+	minimum_height = 400,
+	maximum_width = 700,
+    alignment = 'top_middle',
+    gap_y = 85
+}
+conky.text = [[
+                                                           ${color #c9fe99}${font conkysymbols:size=15}u${font}${color }
+${color #a6ff4d}${font ConkyColors:size=10}o${font}${color } ${time %X}
+${color #a6ff4d}${font ConkyColors:size=10}n${font}${color } ${time %A %x Week %V}
+${color #a6ff4d}${font ConkyColors:size=10}b${font}${color }  Desktop: ${alignr}$nodename
+${color #a6ff4d}${font conkysymbols:size=10}u${font}${color}  OS: $alignr${execi 3600 lsb_release -d -s}
+${color #a6ff4d}${font ConkyColors:size=10}f${font}${color}  Cinnamon Versie: $alignr${execi 3600 cinnamon --version}
+${color #a6ff4d}${font ConkyColors:size=10}f${font}${color}  Nemo Versie: $alignr${execi 3600 nemo --version}
+${color #a6ff4d}${font openlogos:size=12}P${font}${color}  Firefox Versie: $alignr${execi 3600 firefox --version}
+${color #a6ff4d}${font openlogos:size=10}G${font}${color}  Kernel: ${alignr}${kernel}
+${color #a6ff4d}${font StyleBats:size=10}6${font}${color} Conky Versie:${alignr}${conky_version}
 
-> conky.text = [[
-${color 52c700}${font PizzaDude Bullets:size=12}h${font}${color } Conky script gemaakt door:${font PizzaDude Bullets:size=10}3${font} Freñiçh.
+${color #a6ff4d}${font conkysymbols:size=10}k${font}${color } HD Seagate 1000GB
+${color LightBlue} Percentage: ${color }${voffset 1}${offset 2}${color}${alignr}${fs_used_perc /}%
+${color LightBlue} Capaciteit: ${color }${voffset 1}${offset 2}${color}${alignr}${fs_size /}
+${color LightBlue} Vrij: ${color }${voffset 1}${offset 2}${color}${alignr}${fs_free }
+${color LightBlue} Gebruikt:${color }${voffset 1}${offset 2}${color}${alignr}${fs_used }
+${color #a6ff4d}${font conkysymbols:size=10}f${font}${color}  Intel Core i5-7600 ${freq_g}GHz
+${color #a6ff4d}${font conkysymbols:size=10}n${font}${color}  Belasting: ${loadavg} ${alignr}$cpu%
+${color #a6ff4d}${font ConkyColors:size=10}g${font}${color LightBlue}${voffset -2} RAM geheugen: ${color  }${voffset 1}${offset 2}${color}${alignr}${memmax}
+${color #a6ff4d}${font conkysymbols:size=10}m${font}${color LightBlue}${voffset -2} In gebruik:${color  }${voffset 1}${offset 2}${color}${alignr}${mem}
+ 
+${color #a6ff4d}${font conkysymbols:size=10}m${font}${color } Verbruik Applicaties
+${color LightBlue} ${top_mem name 1}$alignr${top_mem mem 1}%
+${color LightBlue} ${top_mem name 2}$alignr${top_mem mem 2}%
+${color LightBlue} ${top_mem name 3}$alignr${top_mem mem 3}%
+${color LightBlue} ${top_mem name 4}$alignr${top_mem mem 4}%
+${color #a6ff4d}${font conkysymbols:size=10}b${font}${color} Netwerk
+${color #a6ff4d}${font ConkyColors:size=10}v${font}${color} Upload Snelheid: ${color }  ${voffset 1}${offset 2}${color}${alignr} ${upspeed eth0}
+${color #a6ff4d}${font ConkyColors:size=10}u${font}${color} Download Snelheid: ${color }${voffset 1}${offset 2}${color}${alignr} ${downspeed eth0} 
+${color #a6ff4d}${font PizzaDude Bullets:size=10}U${font}${color} Totale Snelheid: ${color }  ${voffset 1}${offset 2}${color}${alignr} ${totaldown eth0}
+${if_up tun0}
+${color #a6ff4d}${font ConkyColors:size=10}r${font}${color} PIA-VPN Verbonden
+${color #a6ff4d}${font StyleBats:size=10}I${font}${color} IP adres: $alignr ${texeci 60 wget -qO- https://ipecho.net/plain ; echo | tail}
 
-> ${color 52c700}${font StyleBats:size=10}X${font}${color } ${time %X}
-> ${color 52c700}${font PizzaDude Bullets:size=9}J${font}${color } ${time %A %x Week %V}
-> ${color 52c700}${font StyleBats:size=10}C${font}${color } PC naam: ${alignr}$nodename
+${else}${color DC143C}${font ConkyColors:size=10}q${font}${color} PIA-VPN Verbroken
+$endif
+${color #a6ff4d}${font ConkyColors:size=10}i${font}${color} Router KPN
+${color #a6ff4d}${font StyleBats:size=10}I${font}${color} IP adres: $alignr ${addr enp1s0}
+${color LightBlue} Overzicht${alignr} Verkeer
+$color Uit: ${tcp_portmon 1 32767 count}  In: ${tcp_portmon 32768 61000 count}${alignr} Totaal: ${tcp_portmon 1 65535 count}
+${color #a6ff4d}${font PizzaDude Bullets:size=10}u${font}${color} Router-In ${alignr} Protocol$color
+${tcp_portmon 32768 61000 rhost 0} ${alignr} ${tcp_portmon 32768 61000 rservice 0}
+${tcp_portmon 32768 61000 rhost 1} ${alignr} ${tcp_portmon 32768 61000 rservice 1}
+${tcp_portmon 32768 61000 rhost 2} ${alignr} ${tcp_portmon 32768 61000 rservice 2}
+${color #a6ff4d}${font PizzaDude Bullets:size=10}n${font}${color} Router-Uit ${alignr}Protocol$color
+${tcp_portmon 1 32767 rhost 0} ${alignr} ${tcp_portmon 1 32767 lservice 0}
+${tcp_portmon 1 32767 rhost 1} ${alignr} ${tcp_portmon 1 32767 lservice 1}
+${color #ff571a}${font ConkyColors:size=10}q${font}${color } Aandachts punten:
+${color LightBlue} -> !!! 25-Oct-2020 Pia Vpn verlengen met 2 jaar !!!
 
-> ${color 52c700}${font StyleBats:size=10}Q${font}${color} Sonya Mint 18.2 Cinnamon 64-bit${font}
-> ${color 52c700}${font StyleBats:size=10}F${font}${color} Intel Core i5-7600 ${font}
-> ${color 52c700}${font StyleBats:size=10}6${font}${color} Conky Versie:${alignr}${conky_version}
+${if_running radiotray}
+${color #a6ff4d}${font ConkyColors:size=10}r${font}${color} RADIO TRAY AAN ${alignr} ${execi 15 qdbus net.sourceforge.radiotray /net/sourceforge/radiotray net.sourceforge.radiotray.getCurrentRadio}
+${color #a6ff4d}${font ConkyColors:size=10}G ${font}${color}${color LightBlue}${execi 15 qdbus net.sourceforge.radiotray /net/sourceforge/radiotray getCurrentMetaData| fold -s -w35}
+${else}${voffset -5}${color0}${font PizzaDude:size=6}${font}${color DC143C}${font ConkyColors:size=10}r${font} ${color} RADIO TRAY UIT
+${endif}
+${if_running spotify}
+${color #a6ff4d}${font ConkyColors:size=10}r${font}${color} SPOTIFY AAN ${alignr}Spotify
+${color #a6ff4d}${font ConkyColors:size=10}G ${font}${color LightBlue}Daily - Mix
+${else}${voffset -5}${color0}${font PizzaDude:size=6}${font}${color DC143C}${font ConkyColors:size=10}r${font} ${color} SPOTIFY UIT
+${endif}
+${if_mounted /media/french/Backup}
+${color #a6ff4d}${font conkysymbols:size=10}k${font}${color }${color LightBlue} Timeshift Backup${tab 30,0}${color} ${alignr} ${fs_used /media/french/Backup} / ${fs_size /media/french/Backup} 
+${else}\
+${color DC143C}${font conkysymbols:size=10}k${font} ${color} SDHC Card Ontkoppeld\
+${endif}
+${if_mounted /media/french/FREECOM}
+${color #a6ff4d}${font conkysymbols:size=10}k${font}${color }${color LightBlue} HD Freecom${tab 30,0}${color} ${alignr} ${fs_used /media/french/FREECOM} / ${fs_size /media/french/FREECOM}
+${else}\
+${color DC143C}${font conkysymbols:size=10}k${font} ${color} Externe HD Ontkoppeld\
+${endif}
+]]
 
-> ${voffset 2}${color 52c700}${font StyleBats:size=10}k${font}${color}${voffset -2} Kernel: ${alignr}${kernel}
-> ${voffset 2}${color 52c700}${font StyleBats:size=10}8${font}${color}${voffset -2} PC Aktief: ${alignr}${uptime_short}
-> ${voffset 4}${color 52c700}${font StyleBats:size=10}I${font}${color} IP adres: $alignr ${addr enp1s0}
-
-> #${hr 2}
-> ${color 52c700}${font StyleBats:size=10}O${font}${color } HD Seagate 1000GB
-> ${color LightBlue}Percentage: ${fs_used_perc /}%${alignr} Capaciteit: ${fs_size /}
-> ${color LightBlue}Vrij: ${fs_free /home} ${alignr}${fs_bar 5,60 /}
-> {color LightBlue}Gebruikt:${fs_used /home}${color}${alignr}${fs_bar 5,60 /}
-
-> ${color 52c700}${font StyleBats:size=10}M${font}${color }${color LightBlue} /home   $color${fs_used /home}/${fs_size /home}${alignr}${color LightBlue}${fs_bar 5,60 /home}
-
-> ${voffset 2}${color 52c700}${font StyleBats:size=10}A${font}${color LightBlue}${voffset -2} CPU1: ${color }${voffset 1}${offset 2}${cpubar cpu1 5,60}${color}${alignr}${cpu}%
-> ${voffset 2}${color 52c700}${font StyleBats:size=10}A${font}${color LightBlue}${voffset -2} CPU2: ${color }${voffset 1}${offset 2}${cpubar cpu1 5,60}${color}${alignr}${cpu}%
-> ${voffset 2}${color 52c700}${font StyleBats:size=10}U${font}${color LightBlue}${voffset -2} Fysiek RAM geheugen: ${color  }${voffset 1}${alignr}$memmax 
-> In gebruik:${alignr}$mem($memperc%) ${membar 5,60}
-
-> ${color 52c700}${font StyleBats:size=10}E${font}${color } Verbruik Applicaties
-> ${color LightBlue} ${top_mem name 1}$alignr${top_mem mem 1}%
-> ${color LightBlue} ${top_mem name 2}$alignr${top_mem mem 2}%
-> ${color LightBlue} ${top_mem name 3}$alignr${top_mem mem 3}%
-> ${color LightBlue} ${top_mem name 4}$alignr${top_mem mem 4}%
-
-> ${color 52c700}${font StyleBats:size=10}S${font}${color} Netwerk
-> ${color 52c700}${font PizzaDude Bullets:size=10}N${font}${color} Upload Snelheid ${upspeed eth0}${alignr}${upspeedgraph eth0 5,60}
-> ${color 52c700}${font PizzaDude Bullets:size=10}T${font}${color} Download Snelheid ${downspeed eth0} ${alignr}${downspeedgraph eth0 5,60}
-> ${color 52c700}${font PizzaDude Bullets:size=10}U${font}${color} Totale Snelheid${alignr}${totaldown eth0}
-
-> ${color 52c700}${font StyleBats:size=10}L${font}${color} ROUTER<->POORTEN
-> ${color LightBlue}Poort(en)${alignr}#Verbinding
-> $color Uitgaand: ${tcp_portmon 1 32767 count}  Inkomend: ${tcp_portmon 32768 61000 count}${alignr}Totaal: ${tcp_portmon 1 65535 count}
-> ${color 52c700}${font PizzaDude Bullets:size=10}n${font}${color} Routerpoort->Uitgaand ${alignr} <-Poort$color
-> ${tcp_portmon 1 32767 rhost 0} ${alignr} ${tcp_portmon 1 32767 lservice 0}
-> ${tcp_portmon 1 32767 rhost 1} ${alignr} ${tcp_portmon 1 32767 lservice 1}
-> ${color 52c700}${font PizzaDude Bullets:size=10}u${font}${color} Routerpoort->Inkomend ${alignr} <-Poort$color
-> ${tcp_portmon 32768 61000 rhost 0} ${alignr} ${tcp_portmon 32768 61000 rservice 0}
-> ${tcp_portmon 32768 61000 rhost 1} ${alignr} ${tcp_portmon 32768 61000 rservice 1}
-
-> ${if_running radiotray}
-> ${color 52c700}${font PizzaDude Bullets:size=10}Y${font}${color} RADIO TRAY AAN
-> ${execi 15 qdbus net.sourceforge.radiotray /net/sourceforge/radiotray net.sourceforge.radiotray.getCurrentRadio}: 
-> ${execi 15 qdbus net.sourceforge.radiotray /net/sourceforge/radiotray getCurrentMetaData| fold -s -w35}
-> ${else}${voffset -5}${color0}${font PizzaDude:size=6}${font}${color DC143C}${font PizzaDude Bullets:size=10}Z${font} ${color} RADIO TRAY UIT
-> ${endif}
-> ${if_running spotify}
-> ${color 52c700}${font PizzaDude Bullets:size=10}Y${font}${color} SPOTIFY AAN
-> ${else}${voffset -5}${color0}${font PizzaDude:size=6}${font}${color DC143C}${font PizzaDude Bullets:size=10}Z${font} ${color} SPOTIFY UIT
-> ${endif}
-> ]]
-
-![Screenshot](https://i.imgur.com/fYDkPav.png"Screenshot")
+![Screenshot](https://i.imgur.com/pXDMFIp.png"Screenshot")
 ![](https://img.shields.io/badge/Linux-CC0-brightgreen.svg?style=social&label=Afbeeldingen)
 
 
