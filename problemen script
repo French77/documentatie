@@ -1,10 +1,10 @@
-<!-- Info moet in de titel staan -->
+<!-- Omschrijving moet in de titel staan -->
 
 ```
- * Applet version/Build date (to be found in "About.." or in "metadata.json")
+ * Version/Build date (to be found in "About.." or in "metadata.json")
  * Cinnamon versie (cinnamon --version)
  * Distributie - (Mint 18.3 19.0, etc...)
- * Grafische hardware * en * stuurprogramma's worden gebruikt
+ * Welke grafische hardware * en * stuurprogramma's worden er gebruikt
  * Fragment of bijlage  ~/.xsession-errors
 
  ```
@@ -27,3 +27,8 @@
 
 
 **Overige informatie**
+
+**Afbeelding upload m.b.v** [Imgur]:https://imgur.com/
+
+**Voorbeeld**
+![Screenshot](https://i.imgur.com/ttypYrB.png"Screenshot")
