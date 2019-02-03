@@ -1,6 +1,6 @@
 #### Conky script Dutch Language using StyleBats,ConkyColors,conkysymbols and PizzaDude Fonts.Free to use,distribute or modify to your own needs. .conkyrc(~) ####
 
-conky.config = {
+        conky.config = {
 	-- Use double buffering (eliminates flickering)
 	double_buffer = true,
 
@@ -54,8 +54,9 @@ conky.config = {
     alignment = 'top_middle',
     gap_y = 85
 }
-conky.text = [[
-                                                           ${color #c9fe99}${font conkysymbols:size=15}u${font}${color }
+* conky.text = [[
+
+                                                         ${color #c9fe99}${font conkysymbols:size=15}u${font}${color }
 ${color #a6ff4d}${font ConkyColors:size=10}o${font}${color } ${time %X}
 ${color #a6ff4d}${font ConkyColors:size=10}n${font}${color } ${time %A %x Week %V}
 ${color #a6ff4d}${font ConkyColors:size=10}b${font}${color }  Desktop: ${alignr}$nodename
@@ -64,7 +65,7 @@ ${color #a6ff4d}${font ConkyColors:size=10}f${font}${color}  Cinnamon Versie: $a
 ${color #a6ff4d}${font ConkyColors:size=10}f${font}${color}  Nemo Versie: $alignr${execi 3600 nemo --version}
 ${color #a6ff4d}${font openlogos:size=12}P${font}${color}  Firefox Versie: $alignr${execi 3600 firefox --version}
 ${color #a6ff4d}${font openlogos:size=10}G${font}${color}  Kernel: ${alignr}${kernel}
-${color #a6ff4d}${font StyleBats:size=10}6${font}${color} Conky Versie:${alignr}${conky_version}
+${color #a6ff4d}${font StyleBats:size=10}6${font}${color} Conky Versie:${alignr}${conky_version} 
 
 ${color #a6ff4d}${font conkysymbols:size=10}k${font}${color } HD Seagate 1000GB
 ${color LightBlue} Percentage: ${color }${voffset 1}${offset 2}${color}${alignr}${fs_used_perc /}%
@@ -124,7 +125,9 @@ ${if_mounted /media/french/FREECOM}
 ${color #a6ff4d}${font conkysymbols:size=10}k${font}${color }${color LightBlue} HD Freecom${tab 30,0}${color} ${alignr} ${fs_used /media/french/FREECOM} / ${fs_size /media/french/FREECOM}
 ${else}\
 ${color DC143C}${font conkysymbols:size=10}k${font} ${color} Externe HD Ontkoppeld\
-${endif}
+${endif}*
+
+
 ]]
 
 ![Screenshot](https://i.imgur.com/pXDMFIp.png"Screenshot")
