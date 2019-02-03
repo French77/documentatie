@@ -1,0 +1,29 @@
+<!-- Info moet in de titel staan -->
+
+```
+ * Applet version/Build date (to be found in "About.." or in "metadata.json")
+ * Cinnamon versie (cinnamon --version)
+ * Distributie - (Mint 18.3 19.0, etc...)
+ * Grafische hardware * en * stuurprogramma's worden gebruikt
+ * Fragment of bijlage  ~/.xsession-errors
+
+ ```
+
+<!-- Auteur: jurien@protonmail.com -->
+
+**Breng auteur op de hoogte**
+@
+
+**Omschrijving Probleem**
+
+
+
+**stappen om te reproduceren**
+
+
+
+**Verwacht gedrag**
+
+
+
+**Overige informatie**
