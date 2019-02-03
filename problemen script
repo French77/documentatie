@@ -1,7 +1,7 @@
 <!-- Omschrijving moet in de titel staan -->
 
 ```
- * Version/Build date (to be found in "About.." or in "metadata.json")
+ * Version/Build datum (te vinden in "Over.." of in "metadata.json",etc)
  * Cinnamon versie (cinnamon --version)
  * Distributie - (Mint 18.3 19.0, etc...)
  * Welke grafische hardware * en * stuurprogramma's worden er gebruikt
@@ -28,7 +28,7 @@
 
 **Overige informatie**
 
-**Afbeelding upload m.b.v** [Imgur]:https://imgur.com/
+**Afbeelding uploaden m.b.v** ##Imgur##:https://imgur.com/
 
 **Voorbeeld**
 ![Screenshot](https://i.imgur.com/ttypYrB.png"Screenshot")
