@@ -4,6 +4,7 @@
  * Cinnamon versie (cinnamon --version)
  * Distributie - (Mint 18.3 19.0, etc...)
  * Welke grafische hardware * en * stuurprogramma's worden er gebruikt
+ * Toevoegen /home/<gebruikersnaam>/.xsession-errors, of /var/log/syslog
  * Fragment of bijlage bijvoegen
  ```
   #### Fragment/Afbeelding uploaden m.b.v Imgur:
@@ -33,10 +34,6 @@
 #### Omschrijving Probleem:
 * 
 
-
-
-#### Stappen om te reproduceren
-* 
 
 
 
