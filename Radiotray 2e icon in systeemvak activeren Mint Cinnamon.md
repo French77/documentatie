@@ -2,7 +2,7 @@
 Na ``sudo apt install radiotray python-xdg`` nog steeds geen 2e icon zichtbaar,probleem doet zich kennelijk voor in de configuratie i.c.m appindicator.
 #### Oplossing is door appindicator in het config.xml bestand te vervangen door systray.
 ##### Open de terminal in geef onderstaande code in om het bestand config.xml te openen:
-``gksudo xed ~/.local/share/radiotray/config.xml``
+``xed admin:/// ~/.local/share/radiotray/config.xml``
 
 ![Screenshot](https://i.imgur.com/kVtbn4D.png"Screenshot")
 
