@@ -1,4 +1,4 @@
-- Open de terminal (ctrl+alt+t)
+### Open de terminal m.b.v Ctrl+Alt+t
 Voer het volgende commando uit in de terminal:
 #### Voor Cinnamon
 
