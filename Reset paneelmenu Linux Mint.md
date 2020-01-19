@@ -7,3 +7,4 @@ Voer het volgende commando uit in de terminal:
 
 > ``gsettings reset-recursively org.mate``
 
+###### Enter
