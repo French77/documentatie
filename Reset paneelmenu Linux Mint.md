@@ -12,8 +12,9 @@ Voer het volgende commando uit in de terminal:
 
 ###### Om de paneelinstellingen gebruikers interface te openen en het paneel handmatig terug te zetten. 
 Om het paneel weer in dezelfde positie te zetten net als het (per ongeluk) verwijderde paneel,de hulptoepassingen die in gebruik zijn worden automatisch weer in het paneel geplaatst.
-m.b.v de terminal: 
-> ``Ctrl+Alt+t``
+
+### Open de terminal m.b.v > ``Ctrl+Alt+t`` 
+
 #### Voor Cinnamon
 > ``cinnamon-settings panel``
 
