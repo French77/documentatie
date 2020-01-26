@@ -1,4 +1,5 @@
-### Open de terminal m.b.v Ctrl+Alt+t
+###### Reset paneel
+### Open de terminal m.b.v > ``Ctrl+Alt+t``
 Voer het volgende commando uit in de terminal:
 #### Voor Cinnamon
 
@@ -8,3 +9,13 @@ Voer het volgende commando uit in de terminal:
 > ``gsettings reset-recursively org.mate``
 
 ###### Enter
+
+###### Om de paneelinstellingen gebruikers interface te openen en het paneel handmatig terug te zetten. 
+Om het paneel weer in dezelfde positie te zetten net als het (per ongeluk) het verwijderde paneel,dan zouden automatisch de hulptoepassingen die gebruikt worden weer in het paneel moeten staan.
+m.b.v de terminal: 
+> ``Ctrl+Alt+t``
+#### Voor Cinnamon
+> ``cinnamon-settings panel``
+
+#### Voor Mate
+> ``mate-settings panel``
