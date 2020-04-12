@@ -5,7 +5,7 @@
 
 ##### Conky script Dutch Language using StyleBats,ConkyColors,conkysymbols,openlogos and PizzaDude Fonts.Free to use,distribute or modify to your own needs.
 
-``` conky.config = {
+```ruby conky.config = {
 	-- Use double buffering (eliminates flickering)
 	double_buffer = true,
 
@@ -61,7 +61,7 @@
 ```    
 #### conky.tekst   
     
-``` }
+```ruby }
  conky.text = [[
                                                            
 ${color #4e6969}${font ConkyColors:size=10}o${font}${color} ${time %X}
