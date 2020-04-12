@@ -58,11 +58,11 @@
 	maximum_width = 700,
     alignment = 'top_middle',
     gap_y = 85
-    
+```    
 #### conky.tekst   
     
- }
-``` conky.text = [[
+``` }
+ conky.text = [[
                                                            
 ${color #4e6969}${font ConkyColors:size=10}o${font}${color} ${time %X}
 ${color #4e6969}${font ConkyColors:size=10}n${font}${color} ${time %A %x Week %V}
@@ -223,3 +223,4 @@ ${color #4e6969}${font openlogos:size=10}X${font}${color} BIOS: ${alignr}${execi
 
 
 ]]
+```
