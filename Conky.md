@@ -3,9 +3,9 @@
 
 
 
-##### Conky script Dutch Language using StyleBats,ConkyColors,conkysymbols and PizzaDude Fonts.Free to use,distribute or modify to your own needs.
+##### Conky script Dutch Language using StyleBats,ConkyColors,conkysymbols,openlogos and PizzaDude Fonts.Free to use,distribute or modify to your own needs.
 
-conky.config = {
+``` conky.config = {
 	-- Use double buffering (eliminates flickering)
 	double_buffer = true,
 
@@ -59,10 +59,10 @@ conky.config = {
     alignment = 'top_middle',
     gap_y = 85
     
-#### conky.text    
+#### conky.tekst   
     
  }
-conky.text = [[
+``` conky.text = [[
                                                            
 ${color #4e6969}${font ConkyColors:size=10}o${font}${color} ${time %X}
 ${color #4e6969}${font ConkyColors:size=10}n${font}${color} ${time %A %x Week %V}
