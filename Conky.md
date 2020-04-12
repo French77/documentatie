@@ -59,7 +59,7 @@
     alignment = 'top_middle',
     gap_y = 85
 ```    
-#### conky.tekst   
+##### conky.tekst   
     
 ```ruby }
  conky.text = [[
