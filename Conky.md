@@ -1,4 +1,4 @@
-##### Afbeelding Conky
+##### Voorbeeld afbeelding Conky
 ![Screenshot](https://i.imgur.com/3FcACYm.png"Screenshot")
 
 
