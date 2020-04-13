@@ -59,6 +59,7 @@
 	maximum_width = 700,
     alignment = 'top_middle',
     gap_y = 85
+}
 ```    
 ##### conky.tekst   
     
