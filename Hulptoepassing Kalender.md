@@ -12,9 +12,11 @@
         "dependency": "use-custom-format",
         "tooltip": "Set your custom format here.",
   "value": "%H:%M:%S\n%A %x Week %V"`
-    
+  
+ #### Syntax datum/tijd opmaak 
+ - %H:%M:%S%n%A %d-%m-%Y Week %V
  #### Na aanpassing zal kalender applet er als volgt zo uitzien in je werk/taakbalk.
-![Screenshot](https://i.imgur.com/ttypYrB.png"Screenshot")
+![Screenshot](https://i.imgur.com/J4sai44.png"Screenshot")
 
 
 **Is de uitlijning niet naar wens in de werk/taakbalk (kan aan het gebruikte thema liggen)**
