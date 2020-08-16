@@ -7,3 +7,5 @@
 # documentatie
 #### Linux Mint documentatie (in aanbouw)
 
+
+[![Creative Commons Attribution-ShareAlike 4.0 International](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
