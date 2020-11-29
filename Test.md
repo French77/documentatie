@@ -39,8 +39,8 @@
 ├── <font color="#3465A4"><b>spacer@cinnamon.org</b></font>
 ├── <font color="#3465A4"><b>SpicesUpdate@claudiux</b></font>
 │   └── SpicesUpdate@claudiux.json
-├── <font color="#3465A4"><b>temperature@fevimu</b></font>
-│   └── temperature@fevimu.json
+├── <font color="#3465A4"><b>Sensors@claudiux</b></font>
+│   └── Sensors@claudiux.json
 ├── <font color="#3465A4"><b>user@cinnamon.org</b></font>
 │   ├── 27.json
 │   └── 31.json
