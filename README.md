@@ -9,3 +9,6 @@
 
 
 [![Creative Commons Attribution-ShareAlike 4.0 International](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=French77&show_icons=true&count_private=true&theme=rose_pine&locale=nl)
+
